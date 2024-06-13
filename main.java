@@ -279,11 +279,11 @@ public class main {
 
         Iterator<Sugar> it = c.iterator();
         System.out.println("\nFirst iteam: ");
-        System.out.println(it.next());
+        System.out.println(it.next().getName());
 
         System.out.println("\nOther iteam: ");
         while (it.hasNext()) {
-            System.out.println(it.next());
+            System.out.println(it.next().getName());
         }
 
     }
@@ -311,6 +311,5 @@ public class main {
                 System.out.println("Error");
         }
         sc.close();
-        main(null);
     }
 }
