@@ -285,7 +285,7 @@ public class main {
         while (it.hasNext()) {
             System.out.println(it.next().getName());
         }
-
+        sc.close();
     }
 
     public static void main(String[] args) {
